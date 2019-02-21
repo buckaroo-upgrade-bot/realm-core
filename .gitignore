@@ -81,3 +81,10 @@ Thumbs.db
 # Ignore python compiled files
 *.pyc
 /test/android/jni/#Android.mk#
+
+.buckconfig.local
+.buckconfig.d
+.buckd
+buck-out
+buckaroo
+buckaroo_macros.bzl

@@ -1,0 +1,9 @@
+manifest = "f5900303d1b9f0d83532f903fc8b9c288401f51952e9cd01b0696f1dff2e0ae9"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/taocpp-pegtl"
+target = "//:pegtl"
+
+[lock."github.com/buckaroo-pm/taocpp-pegtl"]
+versions = [ "2.7.1" ]
+revision = "539160b1344b901187f282a52a90ce1b69d84e0f"
