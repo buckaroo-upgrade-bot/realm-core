@@ -1,4 +1,4 @@
-manifest = "00352f31890a03f49487a0cd27c3144ca31749132404b8d5ec8ab64f5b5c89f8"
+manifest = "cd5f046c680195019c44f62dfc25e6e4915f78a42a558f82c79ba59229ef2454"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/host-core-foundation"
