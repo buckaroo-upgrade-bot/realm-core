@@ -1,8 +1,16 @@
-manifest = "f5900303d1b9f0d83532f903fc8b9c288401f51952e9cd01b0696f1dff2e0ae9"
+manifest = "00352f31890a03f49487a0cd27c3144ca31749132404b8d5ec8ab64f5b5c89f8"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-core-foundation"
+target = "//:core-foundation"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/taocpp-pegtl"
 target = "//:pegtl"
+
+[lock."github.com/buckaroo-pm/host-core-foundation"]
+versions = [ "branch=master" ]
+revision = "fd7081ffe1244afb86c41c2d41d3603f851feae8"
 
 [lock."github.com/buckaroo-pm/taocpp-pegtl"]
 versions = [ "2.7.1" ]
